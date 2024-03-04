@@ -1,0 +1,7 @@
+.MoviesGenres {
+    display: flex;
+    background-color: blueviolet;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}

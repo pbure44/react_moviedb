@@ -1,0 +1,5 @@
+.GenreBadge{
+    display: flex;
+    margin: 10px;
+    background-color: lightgray;
+}

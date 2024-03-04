@@ -2,8 +2,8 @@ import {apiService} from "./apiService";
 import {urls} from "../constants";
 
 const movieService={
-    getAll:()=>apiService.get(urls.movie.base),
-    getById:(id)=>apiService.get(urls.movie.byId(id))
+    getAll:(page='1')=>apiService.get(urls.movie.base,{params:{page}}),
+    getAllGenres:()=>apiService.get(urls.genres.base)
 }
 
 export {
